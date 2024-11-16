@@ -8,3 +8,16 @@
 body {
     background: var(--bg-color);
 }
+.container {
+   display: block; 
+   margin: 0;
+   padding: 0;
+   font-size: var(--font-size);
+}
+.container .box {
+    display: block;
+    text-align: left;
+}
+.container .box .button {
+    display: block;
+}
